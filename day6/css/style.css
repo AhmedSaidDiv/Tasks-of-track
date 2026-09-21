@@ -1,0 +1,72 @@
+body{
+    background-image: url(../ass/img/WhatsApp\ Image\ 2026-09-21\ at\ 03.04.17.jpeg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    color:aliceblue;
+}
+:root{
+    --first-color:rgb(204, 40, 40);
+}
+
+header>h1{
+    text-align: center;
+}
+
+.nav{
+    text-align: right;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(102, 6, 6) ;
+}
+.nav a:hover{
+    color: var(--first-color);
+}
+#about h1{
+    text-align: center;
+}
+ img{
+    width: 100px;
+
+
+}
+#me{
+    width: 50%;
+    height: 20vh;
+    
+    
+}
+#skills h2{
+    
+  text-align: center;
+}
+#contact h2{
+    text-align: center;
+}
+.email {
+    color: white;
+
+}
+.email:hover{
+    color: rgb(56, 56, 226);
+    cursor: pointer;
+}
+.phone{
+    color: white;
+}
+.phone:hover{
+    color: rgb(56, 56, 226);
+    cursor: pointer;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+.btn button:hover{
+    background-color: red;
+}

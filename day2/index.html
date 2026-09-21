@@ -16,71 +16,71 @@
         <fieldset >
             <legend>Your Information</legend>
             <label for="name" >Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    </label>
-            <input type="text" id="name">
+            <input type="text" name="name" id="name">
             <br><br>
             <label for="add">Adress:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" id="add">
+            <input type="text" name="Adress" id="add">
             <br> <br>
             <label for="tele">Telephone Number: </label>
-            <input type="number" id="tele">
+            <input type="number" name="Telephone" id="tele">
             <br><br>
             <label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
-            <input type="email" id="email">
+            <input type="email" name="email" id="email">
             <br><br>
 
             <label for="delivery">Delivery Instruction:</label>
             <br>
-            <textarea name="" id="delivery"></textarea>
+            <textarea name="Delivery" id="delivery" rows="3" cols="40" placeholder=""></textarea>
         </fieldset>
         <h2>Design Your Dream Pizza:</h2>
         <fieldset>
             <legend>Pizaa Specs</legend>
             <fieldset>
                 <legend>Crust (Choose one):</legend>
-                <input type="radio" id="Classic">
+                <input type="radio" name="Crust" value="Classic White" id="Classic">
                 <label for="Classic">Classic White</label>
                 <br>
-                <input type="radio" id="Multigrain">
+                <input type="radio" name="Crust" value="Multigrain" id="Multigrain">
                 <label for="Multigrain">Multigrain</label>
                 <br>
-                <input type="radio" id="Choose-stuffed-crust">
+                <input type="radio" name="Crust" value="Choose-stuffed-crust" id="Choose-stuffed-crust">
                 <label for="Choose-stuffed-crust">Choose-stuffed-crust</label>
                 <br>
-                <input type="radio" id="Gulten-free">
+                <input type="radio" name="Crust" value="Gulten-free" id="Gulten-free">
                 <label for="Gulten-free">Gulten-free</label>
             </fieldset>
             <br>
             <fieldset>
                 <legend>Toppings (Choose as many as you want):</legend>
-                <input type="checkbox" id="Red">
+                <input type="checkbox" name="Sause"  id="Red">
                 <label for="Red">Red Sause</label>
                 <br>
-                 <input type="checkbox" id="White">
+                 <input type="checkbox" name="Toppings"  id="White">
                 <label for="White">White Sause</label>
                 <br>
-                 <input type="checkbox" id="cheese">
+                 <input type="checkbox" name="Toppings"  id="cheese">
                 <label for="cheese">Mozzarella cheese</label>
                 <br>
-                 <input type="checkbox" id="Pepperoni">
+                 <input type="checkbox" name="Toppings" id="Pepperoni">
                 <label for="Pepperoni">Pepperoni</label>
                 <br>
-                 <input type="checkbox" id="Mushrooms">
+                 <input type="checkbox" name="Toppings" id="Mushrooms">
                 <label for="Mushrooms">Mushrooms</label>
                 <br>
-                 <input type="checkbox" id="Peppers">
+                 <input type="checkbox" name="Toppings"  id="Peppers">
                 <label for="Peppers">Peppers</label>
                 <br>
-                 <input type="checkbox" id="Anchovies">
+                 <input type="checkbox"  name="Toppings" id="Anchovies">
                 <label for="Anchovies">Anchovies</label>
             </fieldset>
             <fieldset>
                 <legend>Number</legend>
                 <label for="pizaa">How many pizzas:</label>
-                <input type="number">
+                <input type="number" id="pizza">
             </fieldset>
         </fieldset>
         <br>
-        <input type="button" value="Bring me pizzal">
+        <button>Bring ME </button>
         <input type="reset">
      </form>
 
