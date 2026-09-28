@@ -4,8 +4,9 @@
 }
 .header{
     background-image: url(../images/img\ back.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 600px;
     text-align: center;
     color: aliceblue;
     border-radius: 0 0 20px 20px;
@@ -28,7 +29,7 @@
     color:white ;
 }
 .nav a:hover{
-    color: rgb(159, 99, 21);
+    color: rgb(181, 117, 34);
 }
 .cont{
     padding: 180px;

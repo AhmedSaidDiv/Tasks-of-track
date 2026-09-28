@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header header header main main main main right"
+    "left left left footer1 footer1 footer2 footer2 right" ;
+}
+.header{
+    grid-area: header;
+    
+}
+.main{
+    grid-area: main;
+}
+
+.side-right{
+    grid-area: right;
+}
+.side-left{
+    grid-area: left;
+}
+.footer-1{
+    grid-area: footer1;
+}
+.footer-2{
+    grid-area: footer2;
+}
