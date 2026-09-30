@@ -1,21 +1,35 @@
-for (var i=1; i<=10;i++) {
+for (var s=0; s<=10;s++) {
     
-    if (i>=1 && i<=10) {
-        console.log(i)
-    };
+    
+        console.log(s);
 };
-var A = 11;
-while (A++) {
-    if (A>=11 && A>=20) {
-        console.log(A);
-    };
+var q = 11;
+while (q<=20) {
+        if (q>=11 && q<=20) {
+            console.log(q);
+            q++;
+        };
 };
-var r = 21;
+var user={
+    name:`ahmed`,
+    age:`21`,
+    job:`Engineering`,
+     friend:{
+        name:`youssif`,
+        age:`20`,
+        job:`Engineering`,
+     }
+};
+var r = 50;
 do {
-    if (r>=21 && r>=30) {
-        console.log(r);
-    }
-} while (r++);
+    
+        if (r>=50 && r<=60) {
+            console.log(r);
+            r++;
+        };
+        
+
+} while (r<=60);
 var person={
     name:`Ahmed`,
     age:`21`,
@@ -31,4 +45,5 @@ function getResult(x,y,z) {
   var  result = (x + y)/z;
     return result;
 };
-getResult(10,12,2);
+console.table(user);
+console.log(getResult(10,20,6))

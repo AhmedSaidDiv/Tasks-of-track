@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(15, 23, 42);
+    color: rgb(226, 232, 240);
+    font-family: sans-serif;
+}
+form{
+    width: 60%;
+    margin: 0 auto;
+   
+}
+form fieldset{
+   width: 60%;
+   height: 40vh;
+   margin: 20px auto;
+   padding: 20px;
+   border: 1px solid rgb(71, 85, 105);
+   border-radius: 3px;
+   background-color: rgb(30, 41, 59);
+    
+}
+input{
+    width: 30%;
+    height: 25px;
+    margin-bottom: 30px;
+    background-color:rgb(51, 65, 85);
+    border: none;
+    border-radius: 3px;
+    
+}
+#name{
+    margin-left: 20px;
+}
+#age{
+    margin-left: 32px;
+}
+#job{
+    margin-left: 34px;
+}
+#city{
+    margin-left: 34px;
+}
+
+.label{
+    padding-left: 70px;
+}
+button{
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 27px;
+    background-color: rgb(6, 182, 212);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(8, 145, 178);
+}
+@media (max-width:1024px){
+   form fieldset{
+        height: 370px;
+    }
+    
+    input{
+        width: 70%;
+    }
+    .label{
+        padding-left: 1px;
+    }
+    br{
+        display: none;
+    }
+    button{
+        margin-left: 13px;
+        margin: 15px 13px 15px 13px;
+    }
+}
